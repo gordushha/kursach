@@ -1,11 +1,3 @@
-import igraph as ig
-
-#g = Graph.Full(6)
-#g = Graph([(0,1), (1,2), (2,3), (3,4), (4,5), (5,6), (6,7), (7,8)])
-g = ig.Graph.Full_Bipartite(3, 3)
-#g = ig.Graph.Adjacency([[0, 1, 1], [0, 0, 0], [0, 0, 1]])
-
-
 # Python Program to implement
 # the above approach
   
@@ -102,5 +94,4 @@ maximalIndependentSet = graphSets(graph)
 # Prints the Result 
 for i in maximalIndependentSet:
     print(i, end =" ")
-
-print(g.largest_independent_vertex_sets())
+    
